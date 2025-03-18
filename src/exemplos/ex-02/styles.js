@@ -24,10 +24,11 @@ const styles = StyleSheet.create({
         borderRadius: 20,
 
     },
-    texto: {
-        fontSize: RFPercentage(2.2),
-        color: 'deepskyblue',
-
+    imagem: {
+        // height: RFPercentage(10),
+        // width: RFPercentage(28),
+        width: '80%',
+        resizeMode: 'contain'
     },
 });
 
