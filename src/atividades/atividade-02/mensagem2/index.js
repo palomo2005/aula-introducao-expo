@@ -1,6 +1,8 @@
-import { View, Text } from 'react-native'; 
+import { View, Text, image } from 'react-native'; 
 
 import styles from './styles';
+
+
 
 function Mensagem ({titulo, children}) {
     return(
