@@ -29,6 +29,8 @@ const styles = StyleSheet.create({
         color: 'deepskyblue',
 
     },
+
+    botao: {}
 });
 
 export default styles;
