@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-function Exemplo3() {
+function Atividade3() {
 
     const [num, setNum] = useState(0);
 
@@ -48,5 +48,5 @@ function Exemplo3() {
     );
 }
 
-export default Exemplo3;
+export default Atividade3;
 
