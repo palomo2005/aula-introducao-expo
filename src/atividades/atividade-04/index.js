@@ -3,17 +3,27 @@ import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-function Exemplo4 () {
+function Atividade4 () {
 
     const [txtInserido, setTxtInserido] = useState('');
     const [txtExibir, setTxtExibir] = useState('');
     return(
         <View style={styles.container}>
-            <Text style={styles.titulo}>Exemplo 4</Text>
-            <Text style={styles.texto}>{txtInserido}</Text>
+            <Text style={styles.titulo}>Atividade 4</Text>
+            <Text style={styles.texto}>{}</Text>
+            <Text style={styles.texto1}>Nome</Text>
+            
             <TextInput 
                 style={styles.input}
                 onChangeText={(valor) => setTxtInserido(valor)} 
+            />
+
+            <Text style={styles.texto}>{}</Text>
+            <Text style={styles.texto1}>Sobrenome</Text>
+            
+            <TextInput 
+                style={styles.input}
+                onChangeText={(valor1) => setTxtInserido(valor1)} 
             />
 
             <Text style={styles.titulo}>
@@ -32,4 +42,4 @@ function Exemplo4 () {
     )
 }
 
-export default Exemplo4;
+export default Atividade4;

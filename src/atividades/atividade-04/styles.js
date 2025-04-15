@@ -30,6 +30,16 @@ const styles = StyleSheet.create({
         color: 'deepskyblue',
 
     },
+    texto1: {
+        fontSize: RFPercentage(2.2),
+        color: 'deepskyblue',
+        textAlign: 'left',
+        // padding: 8,
+        width: '100%',
+        // height: 80,
+
+    },
+
     input: {
         borderWidth: RFPercentage(0.2),
         width: '100%',
