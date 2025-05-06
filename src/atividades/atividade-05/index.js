@@ -69,19 +69,19 @@ function Atividade5 () {
 
             <View style={styles.grupo}>
 
-            <TouchableOpacity style={styles.button} onPress={() => Soma()}>
+            <TouchableOpacity style={styles.button1} onPress={() => Soma()}>
                 <Text style={styles.textButton}> + </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.button} onPress={() => Sub()}>
+            <TouchableOpacity style={styles.button1} onPress={() => Sub()}>
                 <Text style={styles.textButton}> - </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.button} onPress={() => Mult()}>
+            <TouchableOpacity style={styles.button1} onPress={() => Mult()}>
                 <Text style={styles.textButton}> * </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.button} onPress={() => Divisao()}>
+            <TouchableOpacity style={styles.button1} onPress={() => Divisao()}>
                 <Text style={styles.textButton}> / </Text>
             </TouchableOpacity>
 

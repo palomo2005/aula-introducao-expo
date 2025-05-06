@@ -53,6 +53,17 @@ const styles = StyleSheet.create({
     grupo: {
         display: 'flex',
         flexDirection: 'row'
+    },
+    button1: {
+        backgroundColor: '#E91E63',
+        height: 40,
+        // marginVertical: 20,
+        justifyContent: 'center',
+        borderRadius: 10,
+        marginTop: 20,
+        // width: RFPercentage(2),
+        padding: '10%',
+        paddingVertical: '10%'
     }
 });
 
