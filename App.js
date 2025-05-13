@@ -29,10 +29,12 @@ import Atividade4 from './src/atividades/atividade-04'
 
 import Atividade5 from './src/atividades/atividade-05'
 
+import Atividade6 from './src/atividades/atividade-06'
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo6 />
+      <Atividade6 />
       <StatusBar style="light" />
     </View>
   );
