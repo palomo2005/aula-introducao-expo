@@ -21,6 +21,8 @@ import Exemplo7 from './src/exemplos/ex-07';
 
 import Exemplo8 from './src/exemplos/ex-08';
 
+import Exemplos from './src/exemplos/';
+
 
 // Atividades
 
@@ -39,7 +41,7 @@ import Atividade6 from './src/atividades/atividade-06'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo8 />
+      <Exemplos />
       <StatusBar style="light" />
     </View>
   );
@@ -48,7 +50,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#ffffff',
     // alignItems: 'center',
     // justifyContent: 'center',
     padding:  8, 
